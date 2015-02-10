@@ -1,20 +1,20 @@
-  497  cd imgs
-  498  ls
-  499  pwd
-  500  pwd
-  501  cd Desktop
-  502  ls
-  503  mkdir new_folder
-  504  cd new_folder
-  505  git clone git@github.com:jackzampolin/phase-0-gps-1.git
-  506  ls
-  507  cd phase-0-gps-1/
-  508  ls
-  509  git checkout -b add-command-log
-  510  git chekcout --help
-  511  man git checkout
-  512  subl .
-  513  history
-  514  history 10
-  515  ls
-  516  history 20 > ./README.md
+  509  touch awesome_page.md
+  510  git status
+  511  git add .
+  512  git commit -m 'added awesome_page.md'
+  513  git push origin master
+  514  c
+  515  git status
+  516  git fetch origin masterls
+  517  ls
+  518  e README.md
+  519  git fetch origin master
+  520  git merge origin/master
+  521  ls
+  522  e README.md
+  523  r
+  524  c
+  525  ls
+  526  e README.md
+  527  git co -b branchybranch
+  528  h 20 > README.md
