@@ -12,7 +12,7 @@
   520  git merge origin/master
   521  ls
   522  e README.md
-  523  r
+Text text text
   524  c
   525  ls
   526  e README.md
